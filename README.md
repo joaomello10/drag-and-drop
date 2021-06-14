@@ -2,7 +2,7 @@
 
 ## About
 
-### A todo list with drag and drop functionality and data stored in localstorage
+### A task list with drag and drop functionality, similar to trello and with the data stored in local storage
 
 <img src='img/gif-project.gif'>
 
