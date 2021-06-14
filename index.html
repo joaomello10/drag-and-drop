@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.2/css/all.css"
+        integrity="sha384-oS3vJWv+0UjzBfQzYUhtDYW+Pj2yciDJxpsK1OYPAYjqT085Qq/1cq5FLXAZQ7Ay" crossorigin="anonymous">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <title>Todo List</title>
+</head>
+
+<body>
+    <header>
+        <h1>Todo List</h1>
+    </header>
+    <div id="form-container">
+        <form>
+            <input type="text" id="input" placeholder="New Task" maxlength="50" autocomplete="off">
+            <button><i class="fas fa-plus-square"></i></button>
+        </form>
+    </div>
+    <div class="container-main">
+        <div class="container" id="container-todo">
+            <h1>Todo</h1>
+        </div>
+        <div class="container" id="container-doing">
+            <h1>Doing</h1>
+        </div>
+        <div class="container" id="container-done">
+            <h1>Done</h1>
+        </div>
+    </div>
+    <script src="app.js"></script>
+</body>
+
+</html>

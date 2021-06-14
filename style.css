@@ -1,0 +1,132 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: rgb(75, 74, 74);
+  font-family: "Poppins", sans-serif;
+}
+
+.container {
+  background-color: #333;
+  padding: 1rem;
+  margin-top: 1rem;
+  min-width: 500px;
+  padding: 40px;
+  transition: 0.3s;
+  font-family: sans-serif;
+  border: 2px solid #333;
+  border-radius: 5px;
+}
+
+.container h1 {
+  font-weight: 200;
+  color: white;
+}
+
+.draggable {
+  padding: 1rem;
+  background-color: white;
+  border: 1px solid black;
+  cursor: move;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 30px;
+  box-shadow: 8px 8px 8px 8px rgba(0, 0, 0, 0.3);
+  border-radius: 5px;
+}
+
+.draggable button {
+  border: none;
+  outline: none;
+  background-color: rgb(214, 48, 48);
+  color: white;
+  padding: 20px;
+  width: 10px;
+  height: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  transition: 0.2s;
+}
+
+.draggable button:hover {
+  background-color: rgb(190, 41, 41);
+  transform: scale(1.1);
+}
+
+.dragging {
+  opacity: 0.5;
+}
+
+.container-main {
+  display: flex;
+  justify-content: space-around;
+}
+
+.over {
+  border: 2px solid white;
+}
+
+header {
+  margin: 40px;
+}
+
+header h1 {
+  text-align: center;
+  color: white;
+  font-size: 3rem;
+}
+
+#form-container {
+  display: flex;
+  justify-content: center;
+  margin: 40px;
+}
+
+form {
+  display: flex;
+}
+
+form input {
+  width: 500px;
+  height: 80px;
+  padding: 10px;
+  font-size: 1.5rem;
+  border: none;
+  outline: none;
+}
+
+form button {
+  border: none;
+  width: 80px;
+  height: 80px;
+  outline: none;
+  margin-left: 20px;
+  font-size: 3rem;
+  background-color: #333;
+  color: white;
+  transition: 0.3s;
+}
+
+form button:hover {
+  color: #333;
+  background-color: white;
+}
+
+.remove {
+  animation: remove 0.5s ease forwards;
+}
+
+@keyframes remove {
+  from {
+    opacity: 1;
+  }
+  to {
+    opacity: 0;
+    transform: rotate(10deg) scale(0.5);
+  }
+}
