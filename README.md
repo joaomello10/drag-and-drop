@@ -1,8 +1,9 @@
-<h1>Drag and drop todo list</h1>
+<h1 align='center'>Drag and drop todo list</h1>
 
-## About
+<h2 align='center'>About</h2>
 
-### A task list with drag and drop functionality, similar to trello and with the data stored in local storage
+<h3 align='center'>A task list with drag and drop functionality, similar to trello and with the data stored in local storage
+</h3>
 
 <img src='img/gif-project.gif'>
 
